@@ -17,6 +17,12 @@ export const metadata: Metadata = {
     default: "Z",
   },
   description: "Social media for developers",
+  icons: [
+    {
+      url: "/logo.svg",
+      href: "logo.svg"
+    }
+  ]
 };
 
 export default function RootLayout({
